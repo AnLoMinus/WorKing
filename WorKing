@@ -889,7 +889,7 @@ menu() {
     echo "${cyan}     [2] ${green} Tools category $RED$category"
     echo "${cyan}     [3] ${green} Update WorKing"
     echo "${cyan}     [4] ${green} About us"
-    echo "${cyan}     [5] ${green} Exit"
+    echo "${cyan}     [x] ${green} Exit"
     echo "$prompt"
     read cmd
     case ${cmd} in
@@ -920,7 +920,7 @@ menu() {
       4)
         about
       ;;
-      5|exit|Exit)
+      x|exit|Exit)
         echo "${green}Exiting ....${nc}"
         break
       ;;
