@@ -48,7 +48,7 @@ Banner(){
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
-  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.2.2    ▒
+  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.3.4    ▒
   ▒ https://www.github.com/Anlominus/CoreKit    ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   "
@@ -459,7 +459,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name 
+                  $pac install $dep_name
                 fi
               done
             fi
