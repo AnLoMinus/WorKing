@@ -37,26 +37,19 @@ RESETBG="$(printf '\e[0m')"
 BLINK="$(printf '\033[5;31m')"
 # |
 Banner(){
-  echo "$BLUE
-   ██████   █████                  ████
-  ░░██████ ░░███                  ░░███
-   ░███░███ ░███   ██████   █████  ░███   ██████
-   ░███░░███░███  ███░░███ ███░░   ░███  ███░░███
-   ░███ ░░██████ ░███████ ░░█████  ░███ ░███████
-   ░███  ░░█████ ░███░░░   ░░░░███ ░███ ░███░░░
-   █████  ░░█████░░██████  ██████  █████░░██████$RED
-  ░░░░░░    ░░░░░  ░░░░░░  ░░░░░░  ░░░░░  ░░░░░░░
+  echo "$CYAN
+  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
   ░     _   _            _  ___                 ░
   ░    | | | | __ _  ___| |/ (_)_ __   __ _     ░
   ░    | |_| |/ _' |/ __| ' /| | '_ \ / _' |    ░
   ░    |  _  | (_| | (__| . \| | | | | (_| |    ░
   ░    |_| |_|\__,_|\___|_|\_\_|_| |_|\__, |    ░
-  ░                                   |___/     ░
+  ░                                   |___/     ░$orange
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
-  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.1.3    ▒
-  ▒  https://www.github.com/Anlominus/AnyRecon   ▒
+  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.5.0$cyan    ▒
+  ▒  https://www.github.com/Anlominus/AnyRecon  ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   "
 }
@@ -65,7 +58,7 @@ logo="$(Banner)"
 
 PromptFun(){
   echo ""
-  echo "  ${orange}  ┌──[${blue}Anlominus${purple}👽${red}AnyRecon${cyan}$~${orange}]${cyan}"
+  echo "  ${orange}  ┌──[${CYAN}Anlominus${purple}👽${cyan}Any${orange}Recon${cyan}$~${orange}]${cyan}"
   echo "  ${orange}  └──╼${green}"
 }
 prompt="$(PromptFun)"
@@ -687,7 +680,7 @@ all_tools() {
     clear
     # get all tools data
     echo " ${red} ___
-//___// ${yellow}All Tools
+//___// ${yellow}All Reconnaissance Tools
 "
     for data in `grep "." $tools_data | sort -f | grep -n '.' | sed -n 's/:/|/p' | cut -d"|" -f1,2 | tr ' ' '@'`; do
       # display tools name from data
@@ -728,7 +721,7 @@ category() {
     clear
     # get all category data
     echo " ${red} ___
-//___// ${yellow}Generators Categories
+//___// ${yellow}Reconnaissance Categories
 "
     for data in `grep "." $category_data | grep -n '.' | sed -n 's/:/|/p' | cut -d"|" -f1,2 | tr ' ' '@'`; do
       # display category alias name from data
@@ -881,11 +874,11 @@ menu() {
     tools=`grep -n '.' $tools_data | wc -l`
     category=`grep -n '.' $category_data | wc -l`
     echo "$logo"
-    echo "${cyan}     [1] ${green} All Generators $RED$tools"
-    echo "${cyan}     [2] ${green} Generators Categories $RED$category"
-    echo "${cyan}     [3] ${green} Update AnyRecon"
-    echo "${cyan}     [4] ${green} About us"
-    echo "${cyan}     [x] ${green} Exit"
+    echo "${cyan}     [1] ${orange} All Reconnaissance$cyan Tools $tools"
+    echo "${cyan}     [2] ${orange} Reconnaissance$cyan Categories $category"
+    echo "${cyan}     [3] ${orange} Update AnyRecon"
+    echo "${cyan}     [4] ${orange} About us"
+    echo "${cyan}     [x] ${orange} Exit"
     echo "$prompt"
     read cmd
     case ${cmd} in
