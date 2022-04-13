@@ -177,13 +177,13 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -199,13 +199,13 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac 
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!"
@@ -237,7 +237,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -259,7 +259,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -297,7 +297,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -319,7 +319,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -357,7 +357,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -379,7 +379,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -447,13 +447,13 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -469,13 +469,13 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!${nc}"
@@ -507,7 +507,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -529,7 +529,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -567,7 +567,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -589,7 +589,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -627,7 +627,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -649,7 +649,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -1037,13 +1037,13 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -1059,13 +1059,13 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!${nc}"
@@ -1097,7 +1097,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1119,7 +1119,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -1157,7 +1157,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1179,7 +1179,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -1217,7 +1217,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1239,7 +1239,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
