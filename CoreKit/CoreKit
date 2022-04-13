@@ -38,17 +38,11 @@ BLINK="$(printf '\033[5;31m')"
 # |
 Banner(){
   echo "$BLUE
-   ██████   █████                  ████
-  ░░██████ ░░███                  ░░███
-   ░███░███ ░███   ██████   █████  ░███   ██████
-   ░███░░███░███  ███░░███ ███░░   ░███  ███░░███
-   ░███ ░░██████ ░███████ ░░█████  ░███ ░███████
-   ░███  ░░█████ ░███░░░   ░░░░███ ░███ ░███░░░
-   █████  ░░█████░░██████  ██████  █████░░██████$RED
+       ▁ ▂ ▄ ▅ ▆ ▇ █$orange CoreKit$BLUE █ ▇ ▆ ▅ ▄ ▂ ▁
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
-  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.3.4    ▒
+  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.3.9    ▒
   ▒ https://www.github.com/Anlominus/CoreKit    ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   "
@@ -871,9 +865,9 @@ menu() {
     tools=`grep -n '.' $tools_data | wc -l`
     echo "$logo"
     echo " "
-    echo "${cyan}     [System]${orange} $system"
-    echo "${cyan}     [Manager]${orange} $pac"
-    echo " "
+    # echo "${cyan}     [System]${orange} $system"
+    # echo "${cyan}     [Manager]${orange} $pac"
+    # echo " "
     echo "${cyan}     [1] ${green} All tools $RED$tools"
     echo "${cyan}     [2] ${green} Tools category"
     echo "${cyan}     [3] ${green} Update CoreKit"
