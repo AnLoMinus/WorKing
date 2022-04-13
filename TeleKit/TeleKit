@@ -873,7 +873,7 @@ menu() {
     category=`grep -n '.' $category_data | wc -l`
     echo "$logo"
     echo "${cyan}     [1] ${green} All Generators $RED$tools"
-    echo "${cyan}     [2] ${green} Generators Categories $RED$category"
+    echo "${cyan}     [2] ${green} Tools Categories $RED$category"
     echo "${cyan}     [3] ${green} Update TeleKit"
     echo "${cyan}     [4] ${green} About us"
     echo "${cyan}     [x] ${green} Exit"
