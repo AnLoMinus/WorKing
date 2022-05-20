@@ -477,6 +477,15 @@ linux-smart-enumeration|linux-smart-enumeration|Privilege_Escalation|https://git
 LinEnum|LinEnum|Privilege_Escalation|https://github.com/rebootuser/LinEnum|git|zsh,fish,bash,shell,csh
 PrivescCheck|PrivescCheck|Privilege_Escalation|https://github.com/itm4n/PrivescCheck|git|powershell
 windows-privesc-check|windows-privesc-check|Privilege_Escalation|https://github.com/pentestmonkey/windows-privesc-check|git|python
-unix-privesc-check|unix-privesc-check|Vulnerability_Analysis|https://github.com/pentestmonkey/unix-privesc-check.git|git|zsh,csh,bash,shell
+unix-privesc-check|unix-privesc-check|Vulnerability_Analysis|https://github.com/pentestmonkey/unix-privesc-check.git|git|zsh,csh,bash,shell,fish
 PrivEsc|PrivEsc|Privilege_Escalation|https://github.com/1N3/PrivEsc|git|c,python,perl,shell,bash,php
 OSCP|OSCP|Privilege_Escalation|https://github.com/ihack4falafel/OSCP|git|python,shell,bash,
+PayloadsAllTheThings|PayloadsAllTheThings|Privilege_Escalation|https://github.com/swisskyrepo/PayloadsAllTheThings|git|python,ruby,asp.net,php,jupyter
+linux-kernel-exploitation|linux-kernel-exploitation|Privilege_Escalation|https://github.com/xairy/linux-kernel-exploitation|git|git
+phpsploit|phpsploit|Privilege_Escalation|https://github.com/nil0x42/phpsploit|git|python,php,shell,bash,zsh
+SUDO_KILLER|SUDO_KILLER|Privilege_Escalation|https://github.com/TH3xACE/SUDO_KILLER|git|zsh,bash,shell,fish,c
+pwncat|pwncat|Privilege_Escalation|https://github.com/calebstewart/pwncat|git|python,c++,c,powershell,zsh,csh,bash,shell,fish
+deepce|deepce|Privilege_Escalation|https://github.com/stealthcopter/deepce|git|zsh,csh,bash,shell,fish
+SUID3NUM|SUID3NUM|Privilege_Escalation|https://github.com/Anon-Exploiter/SUID3NUM|git|python
+Lucifer|Lucifer|Privilege_Escalation|https://github.com/Skiller9090/Lucifer|git|python,node,nodejs
+PE-Linux|PE-Linux|Privilege_Escalation|https://github.com/WazeHell/PE-Linux|git|zsh,csh,bash,shell,fish
