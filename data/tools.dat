@@ -489,3 +489,4 @@ deepce|deepce|Privilege_Escalation|https://github.com/stealthcopter/deepce|git|z
 SUID3NUM|SUID3NUM|Privilege_Escalation|https://github.com/Anon-Exploiter/SUID3NUM|git|python
 Lucifer|Lucifer|Privilege_Escalation|https://github.com/Skiller9090/Lucifer|git|python,node,nodejs
 PE-Linux|PE-Linux|Privilege_Escalation|https://github.com/WazeHell/PE-Linux|git|zsh,csh,bash,shell,fish
+GTFONow|GTFONow|Privilege_Escalation|https://github.com/Frissi0n/GTFONow|git|python
