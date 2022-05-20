@@ -433,7 +433,6 @@ trape|trape|ip_tracking|https://github.com/boxug/trape.git|git|python,git
 trojanizer|trojanizer|null|https://github.com/r00t-3xp10it/trojanizer.git|git|git
 truecrack|truecrack|Hashing_&_Passwords|https://github.com/lvaccaro/truecrack.git|git|gcc,clang,python,git
 txtool|txtool|Exploit_Frameworks|https://github.com/kuburan/txtool.git|git|python,git
-unix-privesc-check|unix-privesc-check|Vulnerability_Analysis|https://github.com/pentestmonkey/unix-privesc-check.git|git|git
 voiphopper|voiphopper|Vulnerability_Analysis|https://github.com/iknowjason/voiphopper.git|git|gcc,make,git
 volatility|volatility|DF_Digital_Forensics|https://github.com/volatilityfoundation/volatility.git|git|python,git
 w3af|w3af|Web_Hacking|https://github.com/andresriancho/w3af.git|git|python,git
@@ -472,3 +471,12 @@ zip|zip|SP_System_Tools|null|package_manager|null
 zirikatu|zirikatu|null|https://github.com/pasahitz/zirikatu.git|git|git
 zphisher|zphisher|T_Termux|https://github.com/htr-tech/zphisher.git|git|php,nodejs,git
 KitHack|KitHack|Universal_Kits|https://github.com/AdrMXR/KitHack|git|python,git
+PEASS-ng|PEASS-ng|Privilege_Escalation|https://github.com/carlospolop/PEASS-ng|git|csharp,shell,zsh,bash,python
+traitor|traitor|Privilege_Escalation|https://github.com/liamg/traitor|git|go,golang
+linux-smart-enumeration|linux-smart-enumeration|Privilege_Escalation|https://github.com/diego-treitos/linux-smart-enumeration|git|zsh,bash,fish,csh
+LinEnum|LinEnum|Privilege_Escalation|https://github.com/rebootuser/LinEnum|git|zsh,fish,bash,shell,csh
+PrivescCheck|PrivescCheck|Privilege_Escalation|https://github.com/itm4n/PrivescCheck|git|powershell
+windows-privesc-check|windows-privesc-check|Privilege_Escalation|https://github.com/pentestmonkey/windows-privesc-check|git|python
+unix-privesc-check|unix-privesc-check|Vulnerability_Analysis|https://github.com/pentestmonkey/unix-privesc-check.git|git|zsh,csh,bash,shell
+PrivEsc|PrivEsc|Privilege_Escalation|https://github.com/1N3/PrivEsc|git|c,python,perl,shell,bash,php
+OSCP|OSCP|Privilege_Escalation|https://github.com/ihack4falafel/OSCP|git|python,shell,bash,
