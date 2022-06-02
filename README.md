@@ -26,3 +26,38 @@
 - [ ] 🚀 [Web Hacking]()
 - [ ] 🎉 [Post Exploitation]()
 - [ ] 📦 [Frameworks]()
+
+---
+
+## [Hackingtool Menu](https://github.com/Z4nzu/hackingtool) 🧰
+- [ ] [Anonymously Hiding Tools]()
+- [ ] [Information gathering tools]()
+- [ ] [Wordlist Generator]()
+- [ ] [Wireless attack tools]()
+- [ ] [SQL Injection Tools]()
+- [ ] [Phishing attack tools]()
+- [ ] [Web Attack tools]()
+- [ ] [Post exploitation tools]()
+- [ ] [Forensic tools]()
+- [ ] [Payload creation tools]()
+- [ ] [Exploit framework]()
+- [ ] [Reverse engineering tools]()
+- [ ] [DDOS Attack Tools]()
+- [ ] [Remote Administrator Tools (RAT)]()
+- [ ] [XSS Attack Tools]()
+- [ ] [Steganograhy tools]()
+- [ ] [Other tools]()
+- [ ] [SocialMedia Bruteforce]()
+- [ ] [Android Hacking tools]()
+- [ ] [IDN Homograph Attack]()
+- [ ] [Email Verify tools]()
+- [ ] [Hash cracking tools]()
+- [ ] [Wifi Deauthenticate]()
+- [ ] [SocialMedia Finder]()
+- [ ] [Payload Injector]()
+- [ ] [Web crawling]()
+- [ ] [Mix tools]()
+
+---
+
+
