@@ -13,3 +13,15 @@
 - [ ] [🚦Traffic Monitoring Tools]()
 - [ ] [🖥️ Web Browser Hacking]()
 - [ ] [🚨 Digital Forensics]()
+
+---
+
+- [ ] 🕵️‍♂️ [Information Gathering]()
+- [ ] 🔒 [Password Attacks]()
+- [ ] 📝 [Wordlists]()
+- [ ] 🌐 [Wireless Testing]()
+- [ ] 🔧 [Exploitation Tools]()
+- [ ] 👥 [Sniffing & Spoofing]()
+- [ ] 🚀 [Web Hacking]()
+- [ ] 🎉 [Post Exploitation]()
+- [ ] 📦 [Frameworks]()
